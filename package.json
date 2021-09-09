@@ -1,0 +1,25 @@
+{
+  "name": "phaser-ecs-demo",
+  "version": "1.0.0",
+  "description": "练习phaser ecs结合",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild src/main.ts --servedir=www --outdir=www/js --bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liurongqing/phaser-ecs-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liurongqing/phaser-ecs-demo/issues"
+  },
+  "homepage": "https://github.com/liurongqing/phaser-ecs-demo#readme",
+  "dependencies": {
+    "bitecs": "^0.3.20",
+    "esbuild": "^0.12.25",
+    "phaser": "^3.55.2"
+  }
+}
